@@ -8,9 +8,9 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package org.buukle.socket.nio.util;
+package org.buukle.io.nio.util;
 
-import org.buukle.socket.nio.NioSocketServer;
+import org.buukle.io.nio.NioSocketServer;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -22,8 +22,8 @@ import java.util.Calendar;
 import java.util.Iterator;
 import java.util.Set;
 
-import static org.buukle.socket.nio.NioSocketServer.SOURCE_SPLIT;
-import static org.buukle.socket.nio.NioSocketServer.TARGET_SPLIT;
+import static org.buukle.io.nio.NioSocketServer.SOURCE_SPLIT;
+import static org.buukle.io.nio.NioSocketServer.TARGET_SPLIT;
 
 /**
  * @description 〈〉

@@ -8,7 +8,7 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package org.buukle.socket.io;
+package org.buukle.io.bio;
 
 import java.io.IOException;
 import java.io.OutputStream;

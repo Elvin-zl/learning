@@ -1,6 +1,6 @@
-package org.buukle.socket.nio.util;
+package org.buukle.io.nio.util;
 
-import org.buukle.socket.nio.NioSocketServer;
+import org.buukle.io.nio.NioSocketServer;
 
 import java.nio.ByteBuffer;
 import java.nio.channels.ClosedChannelException;

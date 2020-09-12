@@ -1,4 +1,4 @@
-package org.buukle.socket.nio;
+package org.buukle.io.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -37,7 +37,8 @@ public class NioSocketServer {
             // 轮询服务
             while (true) {
                 // 选择准备好的事件
-                selector.select();
+                selector.selectNow(); // 是非阻塞的,,可以看成是子线程在select.await(),主线程可以干点别的事情,例如redis
+                // selector.select(); // 是阻塞的,只有来了变化才往下执行,可以看成是主线程在select.await();
                 // 已选择的键集
                 Iterator<SelectionKey> it = selector.selectedKeys().iterator();
                 // 处理已选择键集事件

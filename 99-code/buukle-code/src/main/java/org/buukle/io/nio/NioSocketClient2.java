@@ -1,6 +1,6 @@
-package org.buukle.socket.nio;
+package org.buukle.io.nio;
 
-import org.buukle.socket.nio.util.ClientUtil;
+import org.buukle.io.nio.util.ClientUtil;
 
 public class NioSocketClient2 {
 
